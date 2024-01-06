@@ -14,7 +14,12 @@ body{
 .text-primary{
     color: #FD6E0A;
 }
-
+.header{
+    background: #FFF8F3;
+   background-image: url(../images/header_bg.png);
+   background-repeat: no-repeat;
+   background-position:bottom right;
+}
 /* nav related styles  */
 nav{
     display:flex;
@@ -36,6 +41,7 @@ nav > ul>li{
     font-weight: 400;
     line-height: normal;
 }
+
 nav a{
     text-decoration: none;
 }
@@ -43,5 +49,50 @@ nav a{
     color:#181818;
     font-size: 45px;
     font-weight: 800;
+}
 
+.banner{
+   
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content{
+    padding-left:200px;
+    max-width: 600px;;
+}  
+
+.banner-greetings{
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    color: #181818;
+    	font-family: Open Sans;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: -50px;
+    margin-bottom:0px;
+}
+.banner-text{
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+#cntct{
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #FD6E0A;
+    background: transparent;
+    color:#FD6E0A;
+    padding: 17px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 25px;
 }
